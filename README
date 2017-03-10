@@ -1,7 +1,7 @@
 一个可在app启动时插入广告、视频、图片的类
 
 
-使用方法：#import "AppLaunchView.h"
+### 使用方法：#import "AppLaunchView.h"
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
@@ -30,7 +30,7 @@
     return YES;
 }      
 
-
+### 演示截图如下：
 ![image](https://github.com/JayneHong/AppLaunchView/blob/master/1.gif)
 
 ![image](https://github.com/JayneHong/AppLaunchView/blob/master/2.gif)
