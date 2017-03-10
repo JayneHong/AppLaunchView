@@ -19,10 +19,26 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    AppLaunchView *launchView = [[AppLaunchView alloc] initWithWindow:self.window
-                                                      launchVideoName:@"intro_video.mp4"];
-    [launchView show];
+//    /*播放Bundle资源
+//     * launchVideoName 视频资源
+//     */
+//    AppLaunchView *launchView1 = [[AppLaunchView alloc] initWithWindow:self.window
+//                                                       launchVideoName:@"intro_video.mp4"];
+//    //网络视频资源
+//    launchView1.launchUrl = @"https://www.apple.com/media/us/airpods/2016/94916564_4bfa_4362_8b6c_b5c8fc822e3d/films/feature/airpods-feature-tft-cc-us-20160907_960x400.mp4";
+//    
+//    [launchView1 show];
     
+    
+    
+    /*播放Bundle资源
+     * launchType 展示类型
+     */
+    AppLaunchView *launchView2 = [[AppLaunchView alloc] initWithWindow:self.window
+                                                            launchType:AppLaunchAnimCool];
+    launchView2.launchImageName = @"139-1606030Z537.jpeg";
+    launchView2.launchTime = 5;   //不填 默认为4
+    [launchView2 show];
     
     return YES;
 }
