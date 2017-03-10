@@ -1,8 +1,6 @@
 一个可在app启动时插入广告、视频、图片的类
 
-##MaHua是什么?
-
-###使用方法：#import "AppLaunchView.h"
+使用方法：#import "AppLaunchView.h"
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
@@ -31,11 +29,11 @@
     return YES;
 }      
 
-###演示截图如下：
-![](https://github.com/JayneHong/AppLaunchView/blob/master/1.gif)
+演示截图如下：
+(https://github.com/JayneHong/AppLaunchView/blob/master/1.gif)
 
-![](https://github.com/JayneHong/AppLaunchView/blob/master/2.gif)
+(https://github.com/JayneHong/AppLaunchView/blob/master/2.gif)
 
-![](https://github.com/JayneHong/AppLaunchView/blob/master/3.gif)
+(https://github.com/JayneHong/AppLaunchView/blob/master/3.gif)
 
-####如果使用起来对你有帮助，请star一下吧。
+如果使用起来对你有帮助，请star一下吧。
