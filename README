@@ -1,5 +1,6 @@
 一个可在app启动时插入广告、视频、图片的类
 
+##MaHua是什么?
 
 ###使用方法：#import "AppLaunchView.h"
 
